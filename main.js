@@ -1,5 +1,5 @@
-// Require the mathUtils module
-const mathUtils = require("./mathUtils");
+// Import the mathUtils module
+import { multiplyNumbers, square } from "./mathUtils.js";
 
 // Main function that orchestrates the program
 function main() {
@@ -10,10 +10,10 @@ function main() {
   console.log(`The sum of 5 and 3 is: ${result}`);
 
   // Use functions from mathUtils module
-  const product = mathUtils.multiplyNumbers(4, 6);
+  const product = multiplyNumbers(4, 6);
   console.log(`The product of 4 and 6 is: ${product}`);
 
-  const squaredValue = mathUtils.square(5);
+  const squaredValue = square(5);
   console.log(`The square of 5 is: ${squaredValue}`);
 
   console.log("Program finished.");

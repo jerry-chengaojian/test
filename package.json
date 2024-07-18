@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node main.js"
   },
-  "type": "commonjs",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC"
