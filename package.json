@@ -1,0 +1,13 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "A simple JavaScript project",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
