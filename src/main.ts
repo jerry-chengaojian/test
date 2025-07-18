@@ -1,7 +1,6 @@
 // Import the mathUtils module
 import { multiplyNumbers, square } from "./mathUtils.js";
 
-// Main function that orchestrates the program
 function main(): void {
   console.log("Program started.");
 
